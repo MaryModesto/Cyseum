@@ -2063,13 +2063,26 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+		.about {
+			text-align: center;
+		}
+
 		.card {
 			width: 240px;
 			height: 350px;
 			margin: 20px;
 			background-color: #4e4e4e;
+			background-image: linear-gradient(rgb(38, 38, 38), rgb(57, 56, 56));
+			border: 1px solid rgb(45, 45, 45);
 			border-radius: 8px;
 			z-index: 1;
+			transition: 0.3s ease-in-out;
+		   }
+		
+		   .card:hover {
+			box-shadow: 0 0 16px gold;
+			border: 1px solid gold;
+			cursor: pointer;
 		   }
 		   
 		   .tools {
@@ -2113,15 +2126,18 @@ input, select, textarea {
 		   .card__content p{
 			margin: 0;
 			font-size: 18px;
+			color: aliceblue;
+		   }
+
+		   .card__content b {
+			font-weight: bold;
 		   }
 
 		   .card img{
 			max-width: 200px;	
 			max-height: 150px;
-			width: auto;
-			height: auto;
 			overflow: hidden;
-			border-radius: 60rem;
+			border-radius: 50%;
 			border: 2px solid white;
 			margin-bottom: 20px;
 		   }
