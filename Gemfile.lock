@@ -49,6 +49,7 @@ GEM
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
+    ffi (1.16.3-x64-mingw-ucrt)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
@@ -253,6 +254,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.3-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.16.3-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.16.3-x86-linux)
       racc (~> 1.4)
     nokogiri (1.16.3-x86_64-darwin)
@@ -300,11 +303,15 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2024.1)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.9.1)
+    unf_ext (0.0.9.1-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    wdm (0.1.1)
     webrick (1.8.1)
     yell (2.2.2)
     zeitwerk (2.6.13)
@@ -313,6 +320,7 @@ PLATFORMS
   aarch64-linux
   arm-linux
   arm64-darwin
+  x64-mingw-ucrt
   x86-linux
   x86_64-darwin
   x86_64-linux
@@ -323,6 +331,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.9)
   jekyll-seo-tag (~> 2.1)
   tzinfo-data
+  wdm (~> 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
