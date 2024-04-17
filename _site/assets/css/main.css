@@ -2072,6 +2072,7 @@ input, select, textarea {
 			border: 1px solid rgb(45, 45, 45);
 			border-radius: 8px;
 			z-index: 1;
+			transition: .3s ease-in-out;
 		   }
 		   
 		   .tools {
@@ -2129,5 +2130,11 @@ input, select, textarea {
 			border-radius: 50%;
 			border: 2px solid white;
 			margin-bottom: 20px;
+		   }
+
+		   .card:hover {
+			border: 1px solid gold;
+			box-shadow: 0 0 8px gold;
+			cursor: pointer;
 		   }
 		   
