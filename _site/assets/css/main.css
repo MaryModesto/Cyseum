@@ -2309,3 +2309,7 @@ body.is-preload #main .thumb {
   box-shadow: 0 0 8px gold;
   cursor: pointer;
 }
+
+#about-us-p {
+  text-align: justify;
+}
