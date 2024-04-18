@@ -2245,6 +2245,7 @@ body.is-preload #main .thumb {
   border: 1px solid rgb(45, 45, 45);
   border-radius: 8px;
   z-index: 1;
+  transition: 0.3s ease-in-out;
 }
 
 .tools {
@@ -2311,5 +2312,5 @@ body.is-preload #main .thumb {
 }
 
 #about-us-p {
-  text-align: justify;
+  text-align: center;
 }
